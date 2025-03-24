@@ -11,3 +11,7 @@ class File(object):
 #overwrite file
 #with File("script.txt", "w") as opened_file:
  #   opened_file.write("hello")
+
+#append file flag
+with File("script.txt", "a") as file:
+    file.write("\nappend this")
