@@ -1,7 +1,13 @@
 #!/bin/python
 
-import csv
+# script to open a csv file withou a context manager for now.
+# to do. add the context manager.
+
+
+# import csv
 import logging
+
+
 
 logging.basicConfig(level=logging.INFO)
 
@@ -28,4 +34,6 @@ def get_file():
             logging.error("Empty string input error. ")
             print(err)
 
-get_file()
+
+if __name__ == "__main__":
+    get_file()
