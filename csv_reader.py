@@ -1,12 +1,12 @@
 #!/bin/python
 
-# script to open a csv file withou a context manager for now.
-# to do. add the context manager.
+# script to open a csv file withou a context manager, csv, sys.
+# to do. add the context manager. add the sys
 
 
 # import csv
 import logging
-
+#import sys
 
 
 logging.basicConfig(level=logging.INFO)
