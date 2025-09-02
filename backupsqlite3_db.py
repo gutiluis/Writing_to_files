@@ -3,7 +3,7 @@ import sqlite3
 # script for running db
 import logging
 
-logging.basicConfig(logging.level.INFO)
+logging.basicConfig(level=logging.INFO)
 
 logging.debug("""
 target (Connection) - The database connection to save the backup to.
