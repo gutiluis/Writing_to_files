@@ -1,7 +1,8 @@
 #!/bin/python
-import sqlite3
-# script for running db
+
+# script for running db. sqlite3 api backup. not inmemory
 import logging
+import sqlite3
 
 logging.basicConfig(level=logging.INFO)
 
