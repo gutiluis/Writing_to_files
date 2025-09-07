@@ -1,2 +1,5 @@
-# Writing to files with sys
+# Writing to files
 - Context managers
+- sys
+- error handling
+- while loops
