@@ -86,8 +86,7 @@ async def main():
         # Keep server running
         await server.wait_closed()
 
-# -------------------------
-# Entry point
-# -------------------------
+
+
 if __name__ == "__main__":
     asyncio.run(main())
