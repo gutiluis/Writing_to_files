@@ -37,7 +37,7 @@ except ImportError:
 
 # -------------------------
 # Async logging context manager with timestamp
-# -------------------------
+# aiofiles is high-level API
 @asynccontextmanager
 async def async_file_logger(filename):
     f = await aiofiles.open(filename, mode="a")
@@ -46,6 +46,7 @@ async def async_file_logger(filename):
     finally:
         await f.close()
 
+# high-level API, not low-level API
 async def log_message(f, level, message, addr=None):
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     client_info = f" [{addr[0]}:{addr[1]}]" if addr else ""
