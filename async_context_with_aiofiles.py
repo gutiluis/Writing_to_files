@@ -1,5 +1,12 @@
 #!/bin/python
 
+# to run first pip install the aiofiles:
+# python3 -m venv venv
+# source venv/bin/activate
+# python3 async_context_with_aiofiles.py
+
+
+
 import asyncio
 import logging
 import sys
