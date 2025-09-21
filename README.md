@@ -5,3 +5,4 @@
 - while loops
 - asynchronous and synchronous context managers
 - contextlib
+- hashlib
