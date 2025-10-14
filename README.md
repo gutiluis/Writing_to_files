@@ -6,3 +6,5 @@
 - asynchronous and synchronous context managers
 - contextlib
 - hashlib
+- requests
+- http.client
